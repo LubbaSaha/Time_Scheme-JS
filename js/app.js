@@ -43,10 +43,10 @@ clear.addEventListener("click", function(){
 
 //show todays date
 
-const options = {weekday:"long", month:"short", day:"numeric"};
+const options = {weekday:"long", month:"long", day:"numeric"};
 const today = new Date();
 
-dateElement.innerHTML = today.toLocaleDateString("en-US", options);
+dateElement.innerHTML = today.toLocaleDateString("en-EN", options);
 
 // add to do function
 
